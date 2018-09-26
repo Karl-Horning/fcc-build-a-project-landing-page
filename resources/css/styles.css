@@ -32,6 +32,34 @@ header { background: url('../img/adult-braided-braided-hair-936132.jpg'); }
 /* body styles */
 h2, p { margin-bottom: 50px; }
 
+/* navbar styles */
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    transition: 0.3s;
+}
+
+/* Stops the nav from pushing down the content */
+.sticky-top {
+    position: fixed;
+    width: 100%;
+}
+
+/* Styling for when hamburger menu is active */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+  
+    .navbar-nav li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  
+    .navbar-nav li:hover {
+        background-color: rgba(70, 70, 70, 0.75);
+    }
+}
+
 /* header styles */
 .jumbotron {
     color: #fff;
