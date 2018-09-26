@@ -12,7 +12,7 @@
     </head>
     <body>
         <header id="header">
-            <nav class="navbar sticky-top navbar-expand-lg">
+            <nav id="nav-bar" class="navbar sticky-top navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html"><i class="fas fa-taxi"></i> GEEZER</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -169,11 +169,11 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <form>
+                        <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control form-control-lg" placeholder="Enter your email" required>
+                                <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter your email" required>
                                 <div class="input-group-append">
-                                    <button class="btn btn-warning btn-lg">Subscribe now</button>
+                                    <button id="submit" class="btn btn-warning btn-lg">Subscribe now</button>
                                 </div>
                             </div>
                         </form>
