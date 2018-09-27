@@ -1,15 +1,26 @@
-* { box-sizing: border-box; }
+/* =============================================================== */
+/* == FONTS */
+/* =============================================================== */
 
-/* fonts */
 body { font-family: 'Source Sans Pro', sans-serif; }
 h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif;  }
 
 /* font sizes */
 body { font-size: 1.2em; }
-.display-4 { font-size: 5em; }
+.display-4 { font-size: 3em; }
 h2 { font-size: 2.5em; }
 footer { font-size: 0.9em; }
 .h4, h4 { font-size: 1rem; }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .display-4 { font-size: 4em; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .display-4 { font-size: 5em; } 
+}
 
 /* font styling */
 h1, h2, h3 { font-weight: bold; }
@@ -28,14 +39,51 @@ a:hover { box-shadow: inset 0 -0.25em #ffc107; }
 footer h4 { color: #696969; }
 footer, footer a { color: #a4a4a4; line-height: 35px; }
 
-/* images */
+/* =============================================================== */
+/* == IMAGES */
+/* =============================================================== */
+
 header { background: url('../img/adult-braided-braided-hair-936132.jpg'); }
 .jumbotron { background: none; }
 
-/* body styles */
+/* =============================================================== */
+/* == BODY STYLES */
+/* =============================================================== */
+
 h2, p { margin-bottom: 50px; }
 
-/* navbar styles */
+/* =============================================================== */
+/* == HEADER STYLES */
+/* =============================================================== */
+
+.jumbotron {
+    color: #fff;
+    flex-basis: 100%;
+    margin: auto;
+    padding: 1em;
+}
+
+.jumbotron .my-4 { border: 1px solid #fff; max-width: 250px; }
+
+.jumbotron .btn {
+    margin-top: 25px;
+    padding: 10px 150px;
+}
+
+header {
+    background-color: #3f4247;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+/* =============================================================== */
+/* == NAVBAR STYLES */
+/* =============================================================== */
+
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.85) !important;
     transition: 0.3s;
@@ -63,32 +111,10 @@ h2, p { margin-bottom: 50px; }
     }
 }
 
-/* header styles */
-.jumbotron {
-    color: #fff;
-    flex-basis: 100%;
-    margin: auto;
-    padding: 1em;
-}
+/* =============================================================== */
+/* == SECTION STYLES */
+/* =============================================================== */
 
-.jumbotron .my-4 { border: 1px solid #fff; max-width: 250px; }
-
-.jumbotron .btn {
-    margin-top: 25px;
-    padding: 10px 150px;
-}
-
-header {
-    background-color: #3f4247;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    min-height: 100vh;
-    min-width: 100%;
-}
-
-/* section styles */
 section {
     display: flex;
     min-height: 70vh;
@@ -114,7 +140,10 @@ section .container {
     color: #fff;
 }
 
-/* card styles */
+/* =============================================================== */
+/* == CARD STYLES */
+/* =============================================================== */
+
 .card-header {
     background: #0d5190;
     color: #fff;
@@ -125,7 +154,10 @@ section .container {
 .card-body ul { padding: 50px 0; }
 .card-body .btn { margin-bottom: 30px; }
 
-/* form styles */
+/* =============================================================== */
+/* == FORM STYLES */
+/* =============================================================== */
+
 .form-control { border: none; }
 
 .input-group {
@@ -133,7 +165,10 @@ section .container {
     border-radius: 15px;
 }
 
-/* footer styles */
+/* =============================================================== */
+/* == FOOTER STYLES */
+/* =============================================================== */
+
 .footer-links {
     background: #2e2e2e;
     padding: 60px 0 10px;
