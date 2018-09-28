@@ -26,9 +26,10 @@ footer { font-size: 0.9em; }
 h1, h2, h3 { font-weight: bold; }
 .h4, h4 { text-transform: uppercase; }
 a, a:hover { color: #ffc107; }
-a:hover, .active { box-shadow: inset 0 -0.25em #ffc107; }
+a:hover { box-shadow: inset 0 -0.25em #ffc107; }
 .navbar-brand:hover { box-shadow: none; }
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover { color: rgba(265,265,265,0.85); }
+.active { color: rgba(255,193,7,.75)!important; }
 
 .display-4 {
     font-weight: bold; 
