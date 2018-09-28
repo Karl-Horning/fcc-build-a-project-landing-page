@@ -10,11 +10,14 @@
         <link rel="stylesheet" type="text/css" media="screen" href="vendors/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="resources/css/styles.css" />
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#nav-bar" data-offset="50">
         <header id="header">
             <nav id="nav-bar" class="navbar sticky-top navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><i class="fas fa-taxi"></i> GEEZER</a>
+                        <a class="navbar-brand" href="index.html">
+                            <img id="header-img" class="d-inline-block align-top" src="resources/img/camera-shutter-icon.png" width="30" height="30" alt="Geezer logo">
+                            GEEZER
+                        </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
