@@ -1,4 +1,4 @@
-// @hen scrolling
+// When scrolling
 $(window).on('scroll', function() {
     // scrollTop < 0 is for Safari
     console.log($(window).scrollTop());
