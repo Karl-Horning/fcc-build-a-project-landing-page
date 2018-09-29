@@ -45,7 +45,7 @@ footer, footer a { color: #a4a4a4; line-height: 35px; }
 /* == IMAGES */
 /* =============================================================== */
 
-header { background: url('../img/adult-braided-braided-hair-936132.jpg'); }
+header { background: url('https://s3.eu-west-2.amazonaws.com/karls-freecodecamp-assets/adult-braided-braided-hair-936132.jpg'); }
 .jumbotron { background: none; }
 
 /* =============================================================== */
@@ -57,6 +57,16 @@ h2, p { margin-bottom: 50px; }
 /* =============================================================== */
 /* == HEADER STYLES */
 /* =============================================================== */
+
+header {
+    background-color: #3f4247;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+}
 
 .jumbotron {
     color: #fff;
@@ -70,16 +80,6 @@ h2, p { margin-bottom: 50px; }
 .jumbotron .btn {
     margin-top: 25px;
     padding: 10px 150px;
-}
-
-header {
-    background-color: #3f4247;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    min-height: 100vh;
-    min-width: 100%;
 }
 
 /* =============================================================== */
