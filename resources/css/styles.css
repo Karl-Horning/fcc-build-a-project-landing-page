@@ -45,7 +45,7 @@ footer, footer a { color: #a4a4a4; line-height: 35px; }
 /* == IMAGES */
 /* =============================================================== */
 
-header { background: url('https://s3.eu-west-2.amazonaws.com/karls-freecodecamp-assets/adult-braided-braided-hair-936132.jpg'); }
+header { background: url('../img/adult-braided-braided-hair-936132.jpg'); }
 .jumbotron { background: none; }
 
 /* =============================================================== */
