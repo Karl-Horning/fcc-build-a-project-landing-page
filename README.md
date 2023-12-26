@@ -29,4 +29,4 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 ## Completed Project Preview
 
-![Geezer page example](./resources/img/geezer-example.gif "Geezer page example")
+![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
