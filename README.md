@@ -1,32 +1,70 @@
-# Responsive Web Design Projects - Build a Product Landing Page
+# Geezer - Responsive Web Design Project
 
-## Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/RKRbwL.
+![Geezer page example](./src/img/geezer-example.png "Geezer page example")
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+## Table of Contents
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+- [Description](#description)
+- [Preview](#preview)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Author](#author)
 
-- [x] **User Story #1:** My product landing page should have a header element with a corresponding id="header".
-- [x] **User Story #2:** I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
-- [x] **User Story #3:** Within the #header element I can see a nav element with a corresponding id="nav-bar".
-- [x] **User Story #4:** I can see at least three clickable elements inside the nav element, each with the class nav-link.
-- [x] **User Story #5:** When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
-- [x] **User Story #6:** I can watch an embedded product video with id="video".
-- [x] **User Story #7:** My landing page has a form element with a corresponding id="form".
-- [x] **User Story #8:** Within the form, there is an input field with id="email" where I can enter an email address.
-- [x] **User Story #9:** The #email input field should have placeholder text to let the user know what the field is for.
-- [x] **User Story #10:** The #email input field uses HTML5 validation to confirm that the entered text is an email address.
-- [x] **User Story #11:** Within the form, there is a submit input with a corresponding id="submit".
-- [x] **User Story #12:** When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) that confirms the email address was entered and that it posted successfully.
-- [x] **User Story #13:** The navbar should always be at the top of the viewport.
-- [x] **User Story #14:** My product landing page should have at least one media query.
-- [x] **User Story #15:** My product landing page should utilize CSS flexbox at least once.
+## Description
 
-You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+This project is a product landing page created as part of the Responsive Web Design Projects on freeCodeCamp. The landing page is for a fictitious site called 'Geezer' that has the tagline 'Proper Music', and it showcases various features of the music service.
 
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
-## Completed Project Preview
+## Preview
 
 ![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
+
+## Features
+
+- Responsive design for various screen sizes.
+- Navigation bar with smooth scrolling to different sections.
+- Embedded product video.
+- Email subscription form with HTML5 validation.
+- Product pricing section with subscription options.
+- Engaging layout and styling.
+
+## Demo
+
+[View Geezer Demo](https://codepen.io/karlhorning/pen/WabJJo)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Karl-Horning/fcc-build-a-project-landing-page.git`
+2. Navigate to the project directory: `cd fcc-build-a-project-landing-page`
+3. Open `index.html` in your preferred web browser.
+
+## Usage
+
+Simply open the `index.html` file in a web browser to explore the Geezer landing page. You can interact with the navigation links and subscription form.
+
+## Contributing
+
+Contributions are welcome! Follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure the project still works.
+4. Create a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+Special thanks to [freeCodeCamp](https://www.freecodecamp.org) for the Responsive Web Design curriculum.
+
+## Author
+
+Karl Horning: [GitHub](https://github.com/Karl-Horning/) | [LinkedIn](https://www.linkedin.com/in/karl-horning/) | [CodePen](https://codepen.io/karlhorning)
