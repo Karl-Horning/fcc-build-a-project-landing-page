@@ -1,11 +1,10 @@
 # Geezer - Responsive Web Design Project
 
-![Geezer page example](./src/img/geezer-example.png "Geezer page example")
+![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
 
 ## Table of Contents
 
 - [Description](#description)
-- [Preview](#preview)
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
@@ -18,10 +17,6 @@
 ## Description
 
 This project is a product landing page created as part of the Responsive Web Design Projects on freeCodeCamp. The landing page is for a fictitious site called 'Geezer' that has the tagline 'Proper Music', and it showcases various features of the music service.
-
-## Preview
-
-![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
 
 ## Features
 
