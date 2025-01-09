@@ -1,22 +1,19 @@
 # Geezer - Responsive Web Design Project
 
-![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
-
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Author](#author)
+- [Geezer - Responsive Web Design Project](#geezer---responsive-web-design-project)
+  - [Description](#description)
+  - [Features](#features)
+  - [Demo](#demo)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+  - [License](#license)
 
 ## Description
 
-This project is a product landing page created as part of the Responsive Web Design Projects on freeCodeCamp. The landing page is for a fictitious site called 'Geezer' that has the tagline 'Proper Music', and it showcases various features of the music service.
+This project is a product landing page created as part of the Responsive Web Design Projects on freeCodeCamp. The landing page is for a fictitious site called 'Geezer'.
 
 ## Features
 
@@ -25,9 +22,10 @@ This project is a product landing page created as part of the Responsive Web Des
 - Embedded product video.
 - Email subscription form with HTML5 validation.
 - Product pricing section with subscription options.
-- Engaging layout and styling.
 
 ## Demo
+
+![Geezer page example](./src/img/geezer-example.gif "Geezer page example")
 
 [View Geezer Demo](https://codepen.io/karlhorning/pen/WabJJo)
 
@@ -52,14 +50,22 @@ Contributions are welcome! Follow these guidelines:
 3. Make your changes and ensure the project still works.
 4. Create a pull request with a clear description of your changes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
-Special thanks to [freeCodeCamp](https://www.freecodecamp.org) for the Responsive Web Design curriculum.
+This project uses the following resources:
+
+- [Radu Mihai's photo from Unsplash](https://unsplash.com/photos/woman-lying-on-bed-holding-smartphone-VvkSX2NwS4A)
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 ## Author
 
-Karl Horning: [GitHub](https://github.com/Karl-Horning/) | [LinkedIn](https://www.linkedin.com/in/karl-horning/) | [CodePen](https://codepen.io/karlhorning)
+Karl Horning
+
+- [GitHub](https://github.com/Karl-Horning/)
+- [LinkedIn](https://www.linkedin.com/in/karl-horning/)
+- [CodePen](https://codepen.io/karlhorning)
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
